@@ -11,9 +11,9 @@
 
 | Name | Student ID |
 |------|------------|
-| Aya Abd-Alkarim  | 1220020 |
-| Member 2 Name | ID |
-| Member 3 Name | ID |
+| Julia   | ID|
+| Tala | ID |
+| Aya Abd-Alkarim  | 1220020  |
 
 ---
 
@@ -22,19 +22,10 @@
 This project explores and consumes the **[API Name]** RESTful Web Service API.
 
 ### 🧩 What the application does:
-[Brief description of your app — example below]
-
-Example:
-A web application that allows users to search for real-time weather data by city name. It displays temperature, humidity, and forecast information using the OpenWeatherMap API.
 
 ---
 
 ##  Real-World Scenario
-
-[Describe your use case]
-
-Example:
-A traveler planning a trip can enter any city and instantly view current weather conditions and a 5-day forecast, helping them decide what to pack.
 
 ---
 
@@ -62,7 +53,7 @@ A traveler planning a trip can enter any city and instantly view current weather
 ##  Tech Stack
 
 - **Frontend:** HTML + CSS + JavaScript (or React/Vue)
-- **HTTP Client:** Fetch API / Axios
+- **HTTP Client:** Fetch API 
 - **Tools:** Postman (API testing)
 
 ---
@@ -90,8 +81,7 @@ assignment1/
 
 ###  Option A — Plain HTML / JS
 
-git clone https://github.com/[your-username]/[repo-name].git
-cd [repo-name]/assignment1
+git clone https://github.com/aya0/web-services-project1
 
 Open index.html in browser  
 OR run:
@@ -99,23 +89,6 @@ OR run:
 npx serve .
 
 Then open:
-http://localhost:3000
-
----
-
-###  Option B — React / Vue
-
-git clone https://github.com/[your-username]/[repo-name].git
-cd [repo-name]/assignment1
-
-npm install
-
-Create .env file:
-REACT_APP_API_KEY=your_api_key_here
-
-npm start
-
-Open:
 http://localhost:3000
 
 ---
