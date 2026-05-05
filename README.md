@@ -11,7 +11,7 @@
 
 | Name | Student ID |
 |------|------------|
-| Member 1 Name | ID |
+| Aya Abd-Alkarim  | 1220020 |
 | Member 2 Name | ID |
 | Member 3 Name | ID |
 
