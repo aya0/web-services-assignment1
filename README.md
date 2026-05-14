@@ -172,16 +172,16 @@ NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 
 assignment1/  
 │  
-├── index.html              # Main entry point of the application  
-├── style.css               # UI styling and layout  
+├── index.html            
+├── style.css     
 │  
 ├── api/  
-│   ├── alphaVantage.js     # Alpha Vantage API integration  
-│   ├── marketstack.js      # Marketstack API integration  
-│   ├── newsapi.js          # NewsAPI integration  
-│   └── polygon.js          # Polygon.io API integration  
+│   ├── alphaVantage.js     
+│   ├── marketstack.js     
+│   ├── newsapi.js          
+│   └── polygon.js       
 │  
-└── README.md               # Project documentation  
+└── README.md              
 
 ---
 
