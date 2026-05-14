@@ -89,8 +89,6 @@ NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 
 ##  API Information
 
-## APIs Used
-
 ### 1. Marketstack API
 - **API Name:** Marketstack  
 - **Provider:** Apilayer  
@@ -124,8 +122,6 @@ NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 ---
 
 ##  REST Principles Demonstrated
-
-## REST Principles Demonstrated
 
 ### 1. Marketstack API
 | Principle | Details |
