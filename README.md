@@ -78,10 +78,37 @@ NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 
 ##  API Information
 
-- **API Name:** [API Name]  
-- **Provider:** [Provider Name]  
-- **Documentation:** [API Documentation Link]  
-- **Base URL:** https://[api-base-url]
+## APIs Used
+
+### 1. Marketstack API
+- **API Name:** Marketstack  
+- **Provider:** Apilayer  
+- **Documentation:** https://marketstack.com/documentation  
+- **Base URL:** http://api.marketstack.com/v1  
+
+---
+
+### 2. NewsAPI
+- **API Name:** NewsAPI  
+- **Provider:** NewsAPI.org  
+- **Documentation:** https://newsapi.org/docs  
+- **Base URL:** https://newsapi.org/v2  
+
+---
+
+### 3. Alpha Vantage API
+- **API Name:** Alpha Vantage  
+- **Provider:** Alpha Vantage Inc  
+- **Documentation:** https://www.alphavantage.co/documentation/  
+- **Base URL:** https://www.alphavantage.co/query  
+
+---
+
+### 4. Polygon.io API
+- **API Name:** Polygon.io  
+- **Provider:** Polygon.io  
+- **Documentation:** https://polygon.io/docs/  
+- **Base URL:** https://api.polygon.io  
 
 ---
 
