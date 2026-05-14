@@ -30,8 +30,49 @@ The application demonstrates core REST principles — resource-based URLs, HTTP 
 ### 🧩 What the application does:
 
 ---
-
 ##  Real-World Scenario
+
+## Scenario 1: Apple (AAPL) — You OWN the Stock
+
+You already hold Apple shares and want a morning briefing before the market opens.
+
+### 1. Price Check ( by Marketstack)
+AAPL closed at **$189.45**, up **+1.8%**, with higher-than-usual volume → indicates strong buying interest.
+
+### 2. Latest News ( by NewsAPI)
+Recent headlines include:
+- Apple advancing AI features in iOS  
+- Strong iPhone sales in key markets  
+- Positive analyst upgrades  
+
+### 3. Sentiment Analysis (by Alpha Vantage)
+- 6 out of 8 articles are bullish  
+- Sentiment score: **+0.42 (Somewhat Bullish)**  
+
+### 4. Market Context (by Polygon.io)
+Apple remains a **$2.9T company** with a steady upward trend over the past two weeks.
+
+---
+
+## Scenario 2: NVIDIA (NVDA) — You DO NOT OWN the Stock
+
+You are exploring NVIDIA as a potential investment but do not currently hold any shares.
+
+### 1. Price Check ( by Marketstack)
+NVDA closed at **$875.30**, up **+3.2%**, with unusually high volume → strong buying momentum.
+
+### 2. Latest News ( by NewsAPI)
+Recent headlines include:
+- Rising demand for AI chips  
+- New cloud partnerships  
+- Continued expansion in data centers  
+
+### 3. Sentiment Analysis ( by Alpha Vantage)
+- 9 out of 12 articles are bullish  
+- Sentiment score: **+0.68 (Bullish)**  
+
+### 4. Market Context ( by Polygon.io)
+NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 
 ---
 
