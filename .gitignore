@@ -1,0 +1,7 @@
+
+# Ignore the .env file which contains sensitive information
+.env
+
+
+# Ignore a Token file 
+token.txt
