@@ -114,19 +114,55 @@ NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 
 ##  REST Principles Demonstrated
 
+## REST Principles Demonstrated
+
+### 1. Marketstack API
 | Principle | Details |
-|----------|---------|
-| Root Resource URL | https://[api-base-url]/ |
-| Resource Paths | /[endpoint1], /[endpoint2] |
+|----------|--------|
+| Root Resource URL | https://api.marketstack.com/v1/ |
+| Resource Paths | /eod, /tickers, /intraday |
 | HTTP Method | GET |
 | Response Format | JSON |
-| Query Parameters | ?[param1]=value, ?[param2]=value |
+| Query Parameters | ?access_key=YOUR_KEY&symbols=AAPL |
+
+---
+
+### 2. NewsAPI
+| Principle | Details |
+|----------|--------|
+| Root Resource URL | https://newsapi.org/v2/ |
+| Resource Paths | /everything, /top-headlines |
+| HTTP Method | GET |
+| Response Format | JSON |
+| Query Parameters | ?q=apple&apiKey=YOUR_KEY |
+
+---
+
+### 3. Alpha Vantage API
+| Principle | Details |
+|----------|--------|
+| Root Resource URL | https://www.alphavantage.co/query |
+| Resource Paths | function (e.g., TIME_SERIES_DAILY, NEWS_SENTIMENT) |
+| HTTP Method | GET |
+| Response Format | JSON |
+| Query Parameters | ?function=TIME_SERIES_DAILY&symbol=AAPL&apikey=YOUR_KEY |
+
+---
+
+### 4. Polygon.io API
+| Principle | Details |
+|----------|--------|
+| Root Resource URL | https://api.polygon.io/ |
+| Resource Paths | /v2/aggs/ticker, /v3/reference/tickers |
+| HTTP Method | GET |
+| Response Format | JSON |
+| Query Parameters | ?ticker=NVDA&apiKey=YOUR_KEY |
 
 ---
 
 ##  Tech Stack
 
-- **Frontend:** HTML + CSS + JavaScript (or React/Vue)
+- **Frontend:** HTML + CSS + JavaScript
 - **HTTP Client:** Fetch API 
 - **Tools:** Postman (API testing)
 
@@ -134,13 +170,18 @@ NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 
 ##  Project Structure
 
-assignment1/
-├── index.html        # Main entry point
-├── style.css         # Styling
-├── app.js            # Main application logic
-├── api/
-│   └── client.js     # API handler (Fetch/Axios wrapper)
-└── README.md         # Documentation
+assignment1/  
+│  
+├── index.html              # Main entry point of the application  
+├── style.css               # UI styling and layout  
+│  
+├── api/  
+│   ├── alphaVantage.js     # Alpha Vantage API integration  
+│   ├── marketstack.js      # Marketstack API integration  
+│   ├── newsapi.js          # NewsAPI integration  
+│   └── polygon.js          # Polygon.io API integration  
+│  
+└── README.md               # Project documentation  
 
 ---
 
@@ -148,8 +189,7 @@ assignment1/
 
 ###  Prerequisites
 - Modern browser (Chrome / Firefox / Edge)
-- Node.js (if using frameworks)
-- API Key from [Provider Name]
+- API Key from [ Marketstack API , NewsAPI , Alpha Vantage API , Polygon.io API ]
 
 ---
 
@@ -158,34 +198,14 @@ assignment1/
 git clone https://github.com/aya0/web-services-project1
 
 Open index.html in browser  
-OR run:
-
-npx serve .
-
-Then open:
-http://localhost:3000
-
 ---
 
 ##  API Key Setup
 
-1. Sign up at [Provider Website]
+1. Sign up at [ Marketstack API , NewsAPI , Alpha Vantage API , Polygon.io API ]
 2. Generate API key
 3. Add it to your project:
-
-Option 1:
-API_KEY=your_api_key_here
-
-Option 2:
-const API_KEY = "your_api_key_here";
-
+4. 
 ---
-
-##  Features
-
-- Search data using API
-- Display results dynamically
-- Responsive UI
-- Error handling for invalid requests
 
 ---
