@@ -29,6 +29,17 @@ The application demonstrates core REST principles — resource-based URLs, HTTP 
 
 ### 🧩 What the application does:
 
+The projectis a stock dashboard that allows users to search for a stock symbol and instantly receive a complete market overview.
+
+It aggregates data from multiple financial APIs to provide:
+
+-  historical stock prices  
+- Latest financial news related to the stock  
+- Market sentiment analysis  
+- Company and market overview data  
+
+The goal is to simplify investment research by combining all key financial insights into a single, easy-to-use interface.
+
 ---
 ##  Real-World Scenario
 
@@ -195,7 +206,7 @@ assignment1/
 
 ###  Option A — Plain HTML / JS
 
-git clone https://github.com/aya0/web-services-project1
+git clone https://github.com/aya0/web-services-assignment1
 
 Open index.html in browser  
 ---
