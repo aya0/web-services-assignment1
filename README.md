@@ -19,7 +19,13 @@
 
 ##  Project Description
 
-This project explores and consumes the **[API Name]** RESTful Web Service API.
+Mega Market is a financial web dashboard that consumes four public RESTful APIs to deliver stock market data, company insights, and financial news in a single unified interface.
+The application demonstrates core REST principles — resource-based URLs, HTTP GET requests, JSON responses, and query parameters — by integrating the following APIs:
+
+ - Alpha Vantage — Fetches the latest news articles related to a stock ticker along with AI-generated sentiment analysis (Bullish / Bearish / Neutral), showing how market perception around a company can be measured programmatically.
+ - Marketstack — Retrieves end-of-day (EOD) historical OHLCV (Open, High, Low, Close, Volume) stock price data for any given ticker symbol, displayed in a sortable table with daily change calculations.
+- NewsAPI — Pulls the most recent financial headlines from hundreds of global news sources, filtered by ticker or keyword, giving users a broad view of what the media is currently reporting on.
+ - Polygon.io — Provides deep ticker reference data (company name, market cap, employee count, exchange, sector) combined with daily aggregate price bars, rendered as an interactive data visualization.
 
 ### 🧩 What the application does:
 
