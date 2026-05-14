@@ -86,6 +86,8 @@ async function getNewsArticles(ticker = 'AAPL', topics ,  sort = 'LATEST', limit
   });
 }
 
+
+// function to render the news articles and sentiment data in a container element on a webpage
 async function renderNewsSentiment( ticker = 'AAPL',  containerId = 'av-container', options = { topics: '', sort: 'LATEST', limit: 10, apiKey: ALPHA_VANTAGE_KEY }
 ) {
   const container = document.getElementById(containerId);
