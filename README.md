@@ -117,7 +117,7 @@ NVIDIA shows a **strong long-term upward trend**, driven by AI sector growth.
 - **API Name:** Polygon.io  
 - **Provider:** Polygon.io  
 - **Documentation:** https://polygon.io/docs/  
-- **Base URL:** https://api.polygon.io  
+- **Base URL:** https://api.massive.com  
 
 ---
 
