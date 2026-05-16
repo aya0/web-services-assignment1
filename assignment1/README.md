@@ -212,7 +212,3 @@ Open index.html in browser
 1. Sign up at [ Marketstack API , NewsAPI , Alpha Vantage API , Polygon.io API ]
 2. Generate API key
 3. Add it to your project:
-4. 
----
-
----
