@@ -12,7 +12,7 @@
 | Name | Student ID |
 |------|------------|
 | Julia  Duaibes | 1222428|
-| Tala | ID |
+| Tala Kherawish | 1220536 |
 | Aya Abd-Alkarim  | 1220020  |
 
 ---
