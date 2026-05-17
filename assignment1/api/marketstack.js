@@ -1,4 +1,4 @@
-const MARKETSTACK_KEY  = '0bebb5f458f8bff20d9d6f348d5fcf5e'; 
+const MARKETSTACK_KEY  = 'dbafc8fec34ee787970db0052beeb390'; 
 const MARKETSTACK_BASE = 'http://api.marketstack.com/v1'; 
 
 // funciton to convert the numbers to K, M, B format which it make it easier to read 
